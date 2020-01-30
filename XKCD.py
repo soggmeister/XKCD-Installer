@@ -7,7 +7,7 @@ from time import sleep
 
 os.system("color F0") # In true XKCD Style, black on white.
 print('LOADING...\n')
-sleep(1)
+sleep(1) # For effect :)
 
 
 ##  ACQUIRE THE USERNAME OF CURRENT USER
