@@ -201,9 +201,3 @@ os.system("@pause")
 os.startfile(userComicFile)
 os.startfile(userTextFile)
 sys.exit()
-
-    
-
-
-
-
