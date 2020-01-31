@@ -15,7 +15,6 @@ sleep(1) # For effect :)
 user = getpass.getuser()
 
 ##  CREATE ALL PATHS TO USE IN XKCD UPDATE AND DOWNLOAD
-aryanPath = "/XKCD/Comics"
 
 desktopPath = ("C:/Users/%s/Desktop/" % (user))
 userXKCDFile = ("C:/Users/%s/Desktop/XKCD" % (user))
