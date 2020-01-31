@@ -94,11 +94,6 @@ for folderName, subfolders, filenames in os.walk(os.getcwd()):
 
 ## ACQUIRE LATEST XKCD COMIC ID FROM XKCD WEBSITE
 
-# Authors note. This code scans through the entirety of the website's code.
-# In one section of the HTML's head, a meta tag has a content with the link for
-# XKCD's newest comic. This is conveinient! Despite just typing in 'xkcd.com', we can find
-# the newest edition regardless of the fact. Hurray brilliant web design!
-
 comicPage = requests.get('https://xkcd.com/')
 html = BeautifulSoup(comicPage.content, features="lxml")
 latestSeeker = html.get_text()
