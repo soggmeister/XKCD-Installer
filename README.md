@@ -5,3 +5,5 @@ Programmed using Python and compiled to .exe using pyinstaller.
 XKCD-Installer JSON Edition introduces several new features (date of comic, transcript, alt-titles, text documents dedicated to transcript/alt-titles). Requires a stronger computer versus the original edition.
 
 Thank you is underway for u/CraigularB for bringing to attention the JSON interface that made these new additions possible.
+
+[![Run on Repl.it](https://repl.it/badge/github/soggmeister/XKCD-Installer)](https://repl.it/github/soggmeister/XKCD-Installer)
